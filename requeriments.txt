@@ -1,0 +1,15 @@
+Flask==1.0.2
+requests==2.19.1
+schedule==0.5.0
+six==1.11.0
+urllib3==1.23
+Werkzeug==0.14.1
+Flask-Cache==0.13.1
+Flask-SQLAlchemy==2.3.2
+python-decouple==3.1
+python-dotenv==0.9.1
+pytz==2018.5
+six==1.11.0
+SQLAlchemy==1.2.11
+mpld3==0.3
+pymysql
