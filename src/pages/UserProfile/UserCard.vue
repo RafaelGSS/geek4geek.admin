@@ -5,14 +5,14 @@
     </div>
 
     <md-card-content>
-      <h6 class="category text-gray">CEO / Co-Founder</h6>
-      <h4 class="card-title">Alec Thompson</h4>
+      <h6 class="category text-gray">CEO / e Fundador</h6>
+      <h4 class="card-title">Primo do Steve Jobs</h4>
       <p class="card-description">
-        Don't be scared of the truth because we need to restart the human
-        foundation in truth And I love you like Kanye loves Kanye I love Rick
-        Owens’ bed design but the back is...
+        Um cara que não estudava na faculdade e por sorte viu que a vida,
+        não era assim e começõu a estudar pra ter um futuro e hoje ele trabalha
+        de programador em uma empresa imobiliária e sócio de um Ecommerce...
       </p>
-      <md-button class="md-round md-success">Follow</md-button>
+      <a href="https://github.com/yuresilva" target="_blank"> <md-button class="md-round md-success">Seguir ele no Github</md-button> </a>
     </md-card-content>
   </md-card>
 </template>
@@ -22,7 +22,7 @@ export default {
   props: {
     cardUserImage: {
       type: String,
-      default: require("@/assets/img/faces/marc.jpg")
+      default: require("@/assets/img/faces/img-adm.jpg")
     }
   },
   data() {
