@@ -1,17 +1,18 @@
-import Vue from 'vue'
-import upperFirst from 'lodash/upperFirst'
-import camelCase from 'lodash/camelCase'
+// Cards
+import ChartCard from "./Cards/ChartCard.vue";
+import NavTabsCard from "./Cards/NavTabsCard.vue";
+import StatsCard from "./Cards/StatsCard.vue";
 
-const requireComponent = require.context(
-  '@/components', true, /\.vue$/
-)
+// Tables
+import NavTabsTable from "./Tables/NavTabsTable.vue";
+import OrderedTable from "./Tables/OrderedTable.vue";
+import SimpleTable from "./Tables/SimpleTable.vue";
 
-requireComponent.keys().forEach(fileName => {
-  const componentConfig = requireComponent(fileName)
-
-  const componentName = upperFirst(
-    camelCase(fileName.replace(/^\.\//, '').replace(/\.\w+$/, ''))
-  )
-
-  Vue.component(componentName, componentConfig.default || componentConfig)
-})
+export {
+  ChartCard,
+  NavTabsCard,
+  StatsCard,
+  NavTabsTable,
+  OrderedTable,
+  SimpleTable
+};
