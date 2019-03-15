@@ -8,17 +8,10 @@
     <div class="logo">
       <a href="#" class="simple-text logo-mini">
         <div class="logo-img">
-          <img :src="imgLogo" alt="" />
+          <img :src="imgLogo" />
         </div>
       </a>
-
-      <a
-        href="https://www.creative-tim.com/product/vue-material-dashboard"
-        target="_blank"
-        class="simple-text logo-normal"
-      >
-        {{ title }}
-      </a>
+      <a href="#" target="_blank" class="simple-text logo-normal">Geek4Geek</a>
     </div>
     <div class="sidebar-wrapper">
       <slot name="content"></slot>
@@ -30,8 +23,7 @@
             :key="link.name + index"
             :to="link.path"
             :link="link"
-          >
-          </sidebar-link>
+          ></sidebar-link>
         </slot>
       </md-list>
     </div>
@@ -55,7 +47,7 @@ export default {
     },
     imgLogo: {
       type: String,
-      default: require("@/assets/img/vue-logo.png")
+      default: require("@/assets/img/icon-geek4geek-white.png")
     },
     activeColor: {
       type: String,
