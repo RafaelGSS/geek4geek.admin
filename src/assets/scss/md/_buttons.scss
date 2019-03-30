@@ -5,7 +5,6 @@
     margin: 10px 1px;
     height: auto;
     line-height: 1.42857;
-
     font-size: $mdb-btn-font-size-base;
     font-weight: 400;
     text-transform: uppercase;
@@ -49,6 +48,7 @@
     }
     &.md-success{
       @include btn-styles($brand-success);
+     
     }
     &.md-warning{
       @include btn-styles($brand-warning);
