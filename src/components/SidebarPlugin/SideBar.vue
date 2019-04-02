@@ -2,7 +2,6 @@
   <div
     class="sidebar"
     :data-color="activeColor"
-    :data-image="backgroundImage"
     :style="sidebarStyle"
   >
     <div class="logo">
@@ -41,10 +40,6 @@ export default {
       type: String,
       default: "Vue MD"
     },
-    backgroundImage: {
-      type: String,
-      default: require("@/assets/img/sidebar-2.jpg")
-    },
     imgLogo: {
       type: String,
       default: require("@/assets/img/icon-geek4geek-white.png")
@@ -71,13 +66,6 @@ export default {
       autoClose: this.autoClose
     };
   },
-  computed: {
-    sidebarStyle() {
-      return {
-        backgroundImage: `url(${this.backgroundImage})`
-      };
-    }
-  }
 };
 </script>
 <style>

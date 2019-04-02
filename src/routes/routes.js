@@ -4,6 +4,8 @@ import Dashboard from "@/pages/Dashboard.vue";
 import UserProfile from "@/pages/UserProfile.vue";
 import TableList from "@/pages/TableList.vue";
 
+import Login from "@/pages/Auth/Login.vue";
+
 const routes = [
   {
     path: "/",
@@ -26,6 +28,10 @@ const routes = [
         component: TableList
       }
     ]
+  },
+  {
+    path: "/login",
+    component: Login
   }
 ];
 
