@@ -39,7 +39,7 @@ body {
   font-size: 14px;
 
 }
-.md-card .md-card-header{
+b.md-card .md-card-header{
     margin-top: -30px;
     background: #282829;
 }

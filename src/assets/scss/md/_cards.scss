@@ -238,7 +238,7 @@
 
     [data-background-color="red"],
     .md-tabs.md-danger .md-tabs-navigation{
-        background: linear-gradient(60deg, $red-400, $red-600);
+        background: linear-gradient(60deg, $teal-400, $teal-600);
         @include shadow-big-color($brand-danger);
     }
 
