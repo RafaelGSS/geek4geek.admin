@@ -41,6 +41,7 @@ body {
   font-size: 14px;
   margin: 0px
 }
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -50,6 +51,7 @@ body {
   align-items: center
 }
 
+b.md-card .md-card-header,
 .md-card .md-card-header{
     margin-top: -30px;
     background: #282829;

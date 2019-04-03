@@ -36,7 +36,7 @@
           :chart-options="emailsSubscriptionChart.options"
           :chart-responsive-options="emailsSubscriptionChart.responsiveOptions"
           :chart-type="'Bar'"
-          data-background-color="red"
+          data-background-color="purple"
         >
           <template slot="content">
             <h4 class="title">Email Subscription</h4>
@@ -125,7 +125,7 @@
       <div
         class="md-layout-item md-medium-size-50 md-xsmall-size-100 md-size-25"
       >
-        <stats-card data-background-color="red">
+        <stats-card data-background-color="purple">
           <template slot="header">
             <md-icon>info_outline</md-icon>
           </template>
