@@ -1,7 +1,8 @@
 <template>
-  <div class="center">
-    <owl/>
+  <div class="container">
+   
     <div class="content">
+       <owl/>
       <md-card>
         <md-card-header :data-background-color="dataBackgroundColor">
           <h4 class="title text-center">Bem Vindo</h4>
@@ -33,12 +34,22 @@
 </template>
 
 <style scoped>
+
 body {
   background-color: #3c3c3c;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-
+  margin: 0px
 }
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #6C7A89;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
 .md-card .md-card-header{
     margin-top: -30px;
     background: #282829;
