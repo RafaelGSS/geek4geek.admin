@@ -9,11 +9,6 @@
 //        to identify differences in sizing approaches to form inputs.
 // --------------------------------------------------
 
-legend {
-  margin-bottom: $mdb-input-line-height-computed;
-  font-size: ($mdb-input-font-size-base * 1.5);
-}
-
 // Adjust output element
 output {
   padding-top: ($mdb-input-padding-base-vertical + 1);
