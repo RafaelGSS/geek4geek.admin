@@ -1,4 +1,4 @@
-// Sidebar on the right. Used as a local plugin in DashboardLayout.vue
+// Sidebar on the right. Used as a local plugin in DashbonpmardLayout.vue
 import SideBar from "./components/SidebarPlugin";
 
 // asset imports
