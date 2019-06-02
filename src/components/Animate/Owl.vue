@@ -10,9 +10,7 @@
 </template>
 
 <script>
-export default {
-    
-}
+export default {};
 </script>
 
 <style scoped>
@@ -70,4 +68,3 @@ export default {
   transform: translateX(-40px) translateY(-40px) scaleX(-1);
 }
 </style>
-

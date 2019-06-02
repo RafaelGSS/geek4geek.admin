@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="sidebar"
-    :data-color="activeColor"
-    :style="sidebarStyle"
-  >
+  <div class="sidebar" :data-color="activeColor" :style="sidebarStyle">
     <div class="logo">
       <a href="#" class="simple-text logo-mini">
         <div class="logo-img">
@@ -65,7 +61,7 @@ export default {
     return {
       autoClose: this.autoClose
     };
-  },
+  }
 };
 </script>
 <style>

@@ -1,8 +1,7 @@
 <template>
   <div class="container">
-   
     <div class="content">
-       <owl/>
+      <owl />
       <md-card>
         <md-card-header :data-background-color="dataBackgroundColor">
           <h4 class="title text-center">Bem Vindo</h4>
@@ -29,40 +28,39 @@
           </div>
         </md-card-content>
       </md-card>
-      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
-
 body {
   background-color: #3c3c3c;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  margin: 0px
+  margin: 0px;
 }
 
 .container {
   width: 100vw;
   height: 100vh;
-  background: #6C7A89;
+  background: #6c7a89;
   flex-direction: row;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 
 b.md-card .md-card-header,
-.md-card .md-card-header{
-    margin-top: -30px;
-    background: #282829;
+.md-card .md-card-header {
+  margin-top: -30px;
+  background: #282829;
 }
-.content{
+.content {
   max-width: 500px;
   margin: auto;
 }
 @media screen and (max-width: 600px) {
-.content{
-  width: 100%;
+  .content {
+    width: 100%;
   }
 }
 .title {
@@ -92,4 +90,3 @@ export default {
   }
 };
 </script>
-
