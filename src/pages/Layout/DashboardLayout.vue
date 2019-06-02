@@ -7,11 +7,7 @@
       </sidebar-link>
       <sidebar-link to="/user">
         <md-icon>person</md-icon>
-        <p>User Profile</p>
-      </sidebar-link>
-      <sidebar-link to="/table">
-        <md-icon>content_paste</md-icon>
-        <p>Table list</p>
+        <p>Criar Produto</p>
       </sidebar-link>
     </side-bar>
 

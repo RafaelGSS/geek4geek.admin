@@ -4,6 +4,14 @@ import Dashboard from "@/pages/Dashboard.vue";
 import UserProfile from "@/pages/UserProfile.vue";
 import TableList from "@/pages/TableList.vue";
 
+/**
+ * Product
+ */
+import ProductCreate from "@/pages/product/ProductCreate.vue";
+
+/**
+ * Login
+ */
 import Login from "@/pages/Auth/Login.vue";
 
 const routes = [
@@ -26,6 +34,18 @@ const routes = [
         path: "table",
         name: "Table List",
         component: TableList
+      }
+    ]
+  },
+  {
+    path: "/product",
+    component: DashboardLayout,
+    redirect: "/product/create",
+    children: [
+      {
+        path: "create",
+        name: "Criar Produto",
+        component: ProductCreate
       }
     ]
   },
