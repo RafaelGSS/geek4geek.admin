@@ -5,7 +5,7 @@
         <md-icon>dashboard</md-icon>
         <p>Dashboard</p>
       </sidebar-link>
-      <sidebar-link to="/user">
+      <sidebar-link to="/product/create">
         <md-icon>person</md-icon>
         <p>Criar Produto</p>
       </sidebar-link>
